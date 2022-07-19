@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 100px;
+  background-color: rgb(46, 59, 46);
+  border-radius: 10px
+}
